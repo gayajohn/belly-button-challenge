@@ -4,6 +4,9 @@
 
 https://gayajohn.github.io/belly-button-challenge/
 
+<img width="489" alt="image" src="https://github.com/gayajohn/belly-button-challenge/assets/135036996/512b26d4-4443-402c-b349-038af2611a89">
+
+
 ## Table of Contents
 
 - static folder which contains app.js, the javascript file for the dashboard
