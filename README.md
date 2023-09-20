@@ -37,7 +37,7 @@ The objective of this challenge was to extract data from the url provided and bu
 
     referenced code:
 
-    let gaugeData = [
+        let gaugeData = [
         {
             domain: { x: [0, 1], y: [0, 1] },
             value: currentMetaData.wfreq, // extracting washing frequency
@@ -54,9 +54,9 @@ The objective of this challenge was to extract data from the url provided and bu
                 ],
             },
         },
-    ];
 
-    let gaugeLayout = {
+
+        let gaugeLayout = {
         title: { text: "Belly Button Washing Frequency", font: { size: 25, bold: true } },
         margin: {
             l: 50,
@@ -65,9 +65,9 @@ The objective of this challenge was to extract data from the url provided and bu
             t: 50,
             pad: 0
         },
-    };
+    
 
-    let bubbleData = [{
+        let bubbleData = [{
         x: otuIDs,
         y: sampleValues,
         mode: 'markers',
@@ -78,8 +78,8 @@ The objective of this challenge was to extract data from the url provided and bu
             showscale: false
         },
         text: otuLabels
-    }];
+        }];
 
-    data.metadata.find(item => item.id === Number(selectedID))
+        data.metadata.find(item => item.id === Number(selectedID))
 
-    data.samples.find(item => item.id === selectedID)
+        data.samples.find(item => item.id === selectedID)
