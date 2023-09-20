@@ -1,5 +1,9 @@
 # Module 14: Belly Button Challenge
 
+## App Access
+
+https://gayajohn.github.io/belly-button-challenge/
+
 ## Table of Contents
 
 - static folder which contains app.js, the javascript file for the dashboard
